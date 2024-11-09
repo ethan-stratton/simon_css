@@ -42,8 +42,10 @@ export default function App() {
         </nav>
         </header>
   
-         <Routes>
+        <Routes>
         <Route path='/' element={<Login />} exact />
+    
+
         <Route path='/play' element={<Play />} />
         <Route path='/scores' element={<Scores />} />
         <Route path='/about' element={<About />} />
